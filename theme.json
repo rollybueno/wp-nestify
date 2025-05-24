@@ -35,6 +35,21 @@
                     "color": "#e9ecef",
                     "name": "Border",
                     "slug": "border"
+                },
+                {
+                    "color": "rgba(18, 24, 38)",
+                    "name": "Footer Background",
+                    "slug": "footer-bg"
+                },
+                {
+                    "color": "rgba(255, 255, 255)",
+                    "name": "Footer Heading",
+                    "slug": "footer-heading"
+                },
+                {
+                    "color": "rgba(210, 207, 207)",
+                    "name": "Footer Text",
+                    "slug": "footer-text"
                 }
             ],
             "gradients": [
@@ -162,6 +177,33 @@
             "core/navigation": {
                 "typography": {
                     "fontSize": "var(--wp--preset--font-size--regular)"
+                }
+            },
+            "core/group": {
+                "variants": {
+                    "footer": {
+                        "color": {
+                            "background": "var(--wp--preset--color--footer-bg)"
+                        }
+                    }
+                }
+            },
+            "core/heading": {
+                "variants": {
+                    "footer": {
+                        "color": {
+                            "text": "var(--wp--preset--color--footer-heading)"
+                        }
+                    }
+                }
+            },
+            "core/paragraph": {
+                "variants": {
+                    "footer": {
+                        "color": {
+                            "text": "var(--wp--preset--color--footer-text)"
+                        }
+                    }
                 }
             }
         }

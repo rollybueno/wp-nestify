@@ -1,6 +1,14 @@
 {
 	"settings": {
 		"appearanceTools": true,
+		"blocks": {
+			"core/columns": {
+				"layout": {
+					"allowCustomContentAndWideSize": true,
+					"allowEditing": true
+				}
+			}
+		},
 		"color": {
 			"palette": [
 				{
@@ -26,6 +34,7 @@
 			]
 		},
 		"layout": {
+			"allowEditing": true,
 			"contentSize": "800px",
 			"wideSize": "1200px"
 		},
@@ -295,9 +304,9 @@
 		},
 		"typography": {
 			"fontFamily": "var(--wp--preset--font-family--chivo)",
-			"fontSize": "var(--wp--preset--font-size--regular)",
+			"fontSize": "var(--wp--preset--font-size--medium)",
 			"fontStyle": "normal",
-			"fontWeight": "400",
+			"fontWeight": "300",
 			"letterSpacing": "0.1px",
 			"lineHeight": "1.5"
 		}

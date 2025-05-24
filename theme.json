@@ -1,6 +1,6 @@
 {
-    "$schema": "https://schemas.wp.org/trunk/theme.json",
-    "version": 2,
+    "$schema": "https://schemas.wp.org/wp/6.8/theme.json",
+    "version": 3,
     "settings": {
         "appearanceTools": true,
         "useRootPaddingAwareAlignments": true,
@@ -91,8 +91,8 @@
             ]
         },
         "layout": {
-            "contentSize": "840px",
-            "wideSize": "1200px"
+            "contentSize": "1200px",
+            "wideSize": "1600px"
         },
         "spacing": {
             "units": [
@@ -168,9 +168,9 @@
     },
     "custom": {
         "spacing": {
-            "small": "1rem",
-            "medium": "2rem",
-            "large": "4rem"
+            "small": "1.5rem",
+            "medium": "3rem",
+            "large": "6rem"
         }
     }
 } 

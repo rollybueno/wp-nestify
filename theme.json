@@ -191,8 +191,8 @@
 				},
 				{
 					"fluid": true,
-					"name": "Extra Small",
-					"size": "16px",
+					"name": "2XL Small",
+					"size": "8px",
 					"slug": "custom-1"
 				}
 			]
